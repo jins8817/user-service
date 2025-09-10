@@ -1,0 +1,31 @@
+CREATE EXTENSION IF NOT EXISTS citext;
+
+
+CREATE TABLE IF NOT EXISTS "users" (
+user_id SERIAL PRIMARY KEY,
+username VARCHAR(100) NOT NULL,
+email VARCHAR(255) NOT NULL,
+codice_fiscale CHAR(16) NOT NULL,
+nome VARCHAR(100) NOT NULL,
+cognome VARCHAR(100) NOT NULL,
+created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+CONSTRAINT uk_users_email UNIQUE(email),
+CONSTRAINT uk_users_cf UNIQUE(codice_fiscale)
+);
+
+
+CREATE TABLE IF NOT EXISTS roles (
+role_id SERIAL PRIMARY KEY,
+name VARCHAR(20) NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS user_role (
+user_id NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,
+role_id VARCHAR(20) NOT NULL,
+CONSTRAINT pk_user_roles PRIMARY KEY (user_id, role)
+);
+
+
+CREATE INDEX IF NOT EXISTS idx_users_username ON users(username);

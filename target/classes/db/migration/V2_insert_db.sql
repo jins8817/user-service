@@ -1,0 +1,7 @@
+INSERT INTO roles (role_id, role_desc) VALUES
+(1, 'OWNER'),
+(2, 'OPERATOR'),
+(3, 'MAINTAINER'),
+(4, 'DEVELOPER'),
+(5, 'REPORTER')
+ON CONFLICT (id) DO NOTHING;

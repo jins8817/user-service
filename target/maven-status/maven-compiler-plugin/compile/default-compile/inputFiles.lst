@@ -1,0 +1,17 @@
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\config\SecurityConfig.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\controller\UserController.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\domain\AbstractAudingEntity.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\domain\Role.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\domain\RoleName.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\domain\UserDetail.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\exception\BadRequestException.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\exception\NotFoundException.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\mapper\AbstractMapper.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\mapper\IMapper.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\mapper\UserDetailMapper.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\repository\UserDetailsRepository.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\repository\UserRoleRepository.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\service\dto\UserDetailDTO.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\service\dto\UserDetailUpdateDTO.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\service\UserDetailService.java
+C:\Users\gina1\eclipse-workspace\user-service\src\main\java\com\intesi\usermanagement\UserManagementApplication.java
